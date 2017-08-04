@@ -11,6 +11,6 @@ class PubgRubyTest < Minitest::Test
       config.api_key = ENV["API_KEY"]
     end
 
-    ap PubgRuby::Profile.nickname "Paynerman"
+    ap PubgRuby::Profile.from_steam "76561198069157066s"
   end
 end
