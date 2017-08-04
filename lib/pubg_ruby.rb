@@ -1,8 +1,8 @@
-require "dotenv/load"
+require 'dotenv/load'
 
-require "pubg_ruby/version"
-require "pubg_ruby/profile"
-require "pubg_ruby/configuration"
+require 'pubg_ruby/version'
+require 'pubg_ruby/profile'
+require 'pubg_ruby/configuration'
 
 module PubgRuby
   class << self

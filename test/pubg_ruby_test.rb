@@ -8,9 +8,9 @@ class PubgRubyTest < Minitest::Test
 
   def test_it_does_something_useful
     PubgRuby.configure do |config|
-      config.api_key = ENV["API_KEY"]
+      config.api_key = ENV['API_KEY']
     end
 
-    ap PubgRuby::Profile.from_steam "76561198069157066"
+    ap PubgRuby::Profile.from_steam '76561198069157066'
   end
 end
