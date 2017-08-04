@@ -27,7 +27,7 @@ class PubgRubyTest < Minitest::Test
       config.api_key = nil
     end
 
-    assert_raises ArgumentError do
+    assert_raises ConfigurationError do
       PubgRuby::Profile.from_nickname ENV['TEST_NAME']
     end
   end

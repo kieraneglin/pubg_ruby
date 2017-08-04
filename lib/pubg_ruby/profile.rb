@@ -16,7 +16,7 @@ module PubgRuby
       begin
         from_nickname JSON.parse(stats)['Nickname']
       rescue
-        raise ArgumentError, 'Player not found'
+        raise PlayerNotFoundError, 'Player not found'
       end
     end
   end
