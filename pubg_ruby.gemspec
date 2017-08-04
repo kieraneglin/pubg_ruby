@@ -10,9 +10,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Kieran Eglin']
   spec.email         = ['kieran.eglin@gmail.com']
 
-  spec.summary       = 'blank for now'
-  spec.description   = 'blank for now'
-  spec.homepage      = 'http://google.ca'
+  spec.summary       = 'A way to communicate with the PUBGTracker API'
+  spec.homepage      = 'https://github.com/kieraneglin/pubg_ruby'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
