@@ -8,10 +8,9 @@ class PubgRubyTest < Minitest::Test
 
   def test_it_does_something_useful
     PubgRuby.configure do |config|
-      config.api_key = 10
+      config.api_key = ENV["API_KEY"]
     end
 
-    puts PubgRuby.configuration.api_key
-    # ap PubgRuby::Profile.nickname
+    ap PubgRuby::Profile.nickname
   end
 end
